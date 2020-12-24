@@ -14,8 +14,8 @@ on:
   repository_dispatch:
   workflow_dispatch:
     inputs:
-      ssh: ture
-        description: 'SSH connection to Actions'
+      ssh:
+        description:
         required: false
         default: 'false'
 #  schedule:
