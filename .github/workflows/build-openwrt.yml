@@ -8,15 +8,15 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: Build OpenWrt 01
 
 on:
   repository_dispatch:
   workflow_dispatch:
     inputs:
-      ssh:
+      ssh: ture
         description: 'SSH connection to Actions'
-        required: ture
+        required: false
         default: 'false'
 #  schedule:
 #    - cron: 0 8 * * 5
