@@ -17,7 +17,7 @@ on:
       ssh:
         description:
         required: false
-        default: 'ture'
+        default: 'true'
 #  schedule:
 #    - cron: 0 8 * * 5
 
